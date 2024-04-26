@@ -1,0 +1,18 @@
+Linguagens
+
+Python
+Interpretador
+Jupyter
+
+Java
+Interprertador
+
+HTML / CSS
+Auto Close Tags
+Auto Rename Tags
+Live Server
+
+Customização
+Apc Custimizer UI++
+Material Icon Theme
+One Dark Pro Monkai Dark <-- Tema
