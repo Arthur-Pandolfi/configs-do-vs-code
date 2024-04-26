@@ -1,0 +1,80 @@
+{
+    "symbols.hidesExplorerArrows": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [150],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "line",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.location": "top",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.statusBar.visible": true,
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 11,
+            "y": 10
+        },
+        "frame": false
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.font.family": "Inter",
+
+    "window.commandCenter": true,
+    "workbench.layoutControl.enabled": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock*, bun.lock*",
+        "tailwind.config*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*"
+    },
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.editor.empty.hint": "hidden",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "constant.numeric"
+                ],
+                "settings": {
+                    "foreground": "#199ebc" 
+                }
+            }
+        ]
+    },
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+        },
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+        "workbench.colorCustomizations": {
+            "terminal.foreground": "#ffffff",
+            "terminalCursor.foreground": "#cccccc"
+        },
+        "terminal.integrated.sendKeybindingsToShell": true,
+        "editor.linkedEditing": true,
+        "explorer.confirmDelete": false,
+        "files.autoSave": "afterDelay",
+        "security.workspace.trust.untrustedFiles": "open",
+        "editor.largeFileOptimizations": false,
+        "redhat.telemetry.enabled": true,
+        "liveServer.settings.donotVerifyTags": true,
+        "workbench.colorTheme": "One Dark Pro Monokai Darker",
+        "window.titleBarStyle": "custom",
+        "explorer.confirmDragAndDrop": false,
+        "workbench.iconTheme": "material-icon-theme",
+        "window.density.editorTabHeight": "compact",
+}
