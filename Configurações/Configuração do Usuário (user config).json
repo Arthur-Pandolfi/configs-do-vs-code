@@ -30,7 +30,6 @@
     "apc.listRow": {
         "height": 24
     },
-    "apc.font.family": "Inter",
 
     "window.commandCenter": true,
     "workbench.layoutControl.enabled": true,
