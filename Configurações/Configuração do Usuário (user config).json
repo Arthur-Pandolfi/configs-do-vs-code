@@ -1,6 +1,6 @@
 {                                                                                               
     "symbols.hidesExplorerArrows": false,
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "Monocraft",
     "editor.fontSize": 14,
     "editor.lineHeight": 1.8,
     "editor.rulers": [150],
@@ -16,20 +16,6 @@
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "workbench.statusBar.visible": true,
-    "apc.electron": {
-        "titleBarStyle": "hiddenInset",
-        "trafficLightPosition": {
-            "x": 11,
-            "y": 10
-        },
-        "frame": false
-    },
-    "apc.header": {
-        "height": 36
-    },
-    "apc.listRow": {
-        "height": 24
-    },
 
     "window.commandCenter": true,
     "workbench.layoutControl.enabled": true,
@@ -39,7 +25,7 @@
         "tailwind.config*": "tailwind.config*, postcss.config*",
         ".env.local": ".env*"
     },
-    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
     "workbench.editor.empty.hint": "hidden",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -53,31 +39,19 @@
             }
         ]
     },
-    "terminal.integrated.profiles.windows": {
-        "Git Bash": {
-            "source": "Git Bash"
-        }
-        },
-        "terminal.integrated.defaultProfile.windows": "Git Bash",
-        "workbench.colorCustomizations": {
-            "terminal.foreground": "#ffffff",
-            "terminalCursor.foreground": "#cccccc"
-        },
         "terminal.integrated.sendKeybindingsToShell": true,
         "editor.linkedEditing": true,
         "explorer.confirmDelete": false,
         "files.autoSave": "afterDelay",
         "security.workspace.trust.untrustedFiles": "open",
         "editor.largeFileOptimizations": false,
-        "redhat.telemetry.enabled": true,
+        "redhat.telemetry.enabled": false,
         "liveServer.settings.donotVerifyTags": true,
         "workbench.colorTheme": "One Dark Pro Monokai Darker",
         "window.titleBarStyle": "custom",
         "explorer.confirmDragAndDrop": false,
         "workbench.iconTheme": "material-icon-theme",
-        "terminal.integrated.fontSize": 18,
-        "git.suggestSmartCommit": false,
-        "github.copilot.editor.enableAutoCompletions": true,
+        "terminal.integrated.fontSize": 14,
         "python.createEnvironment.trigger": "off",
-        "window.density.editorTabHeight": "compact",
+        "window.density.editorTabHeight": "default",
 }
