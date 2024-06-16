@@ -8,6 +8,7 @@ Java
 Interprertador
 
 HTML / CSS
+Auto Complete Tags
 Auto Close Tags
 Auto Rename Tags
 Live Server
