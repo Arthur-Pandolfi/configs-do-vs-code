@@ -1,5 +1,4 @@
-{                                                                                               
-    "symbols.hidesExplorerArrows": false,
+{                                                                                           
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 13,
     "editor.lineHeight": 1.8,
@@ -16,7 +15,6 @@
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "workbench.statusBar.visible": true,
-
     "window.commandCenter": true,
     "workbench.layoutControl.enabled": true,
     "explorer.fileNesting.enabled": true,
