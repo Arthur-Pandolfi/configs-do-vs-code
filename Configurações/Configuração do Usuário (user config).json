@@ -1,56 +1,73 @@
-{                                                                                           
+{
+    // Edição do edtior de texto
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 13,
-    "editor.lineHeight": 1.8,
-    "editor.rulers": [175],
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.renderLineHighlight": "line",
-    "editor.fontLigatures": true, 
-    "workbench.editor.labelFormat": "short",
-    "explorer.compactFolders": false, 
-    "editor.semanticHighlighting.enabled": false,
-    "breadcrumbs.enabled": false,
-    "workbench.activityBar.location": "default",
-    "editor.minimap.enabled": false,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.47,
+    "editor.rulers": [155],
+    "editor.minimap.autohide": true,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
-    "workbench.statusBar.visible": true,
-    "window.commandCenter": true,
-    "workbench.layoutControl.enabled": true,
+    "editor.wordWrap": "on",
+    "editor.renderLineHighlight": "all",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.selectionHighlight": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": ["constant.numeric"],
+            "settings": {
+                "foreground": "#d0ff00"
+                }
+            },
+            {
+                "scope": ["comment"],
+                "settings": {
+                    "foreground": "#c3bbbb",
+                    "fontStyle": ""
+             }
+            },
+        
+        ]
+    },
+    "editor.largeFileOptimizations": false,
+
+    // Edição da área de trabalho
+    "workbench.colorTheme": "One Dark Pro Mix",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.empty.hint": "hidden",
+
+
+    // Edição do Explorer
+    "explorer.autoOpenDroppedFile": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.autoReveal": true,
+    "explorer.compactFolders": false,
+    "explorer.decorations.colors": true,
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock*, bun.lock*",
         "tailwind.config*": "tailwind.config*, postcss.config*",
         ".env.local": ".env*"
+        
     },
-    "terminal.integrated.fontFamily": "JetBrains Mono",
-    "workbench.editor.empty.hint": "hidden",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": [
-                    "constant.numeric"
-                ],
-                "settings": {
-                    "foreground": "#199ebc" 
-                }
-            }
-        ]
-    },
-        "terminal.integrated.sendKeybindingsToShell": true,
-        "editor.linkedEditing": true,
-        "explorer.confirmDelete": false,
-        "files.autoSave": "afterDelay",
-        "security.workspace.trust.untrustedFiles": "open",
-        "editor.largeFileOptimizations": false,
-        "redhat.telemetry.enabled": false,
-        "liveServer.settings.donotVerifyTags": true,
-        "workbench.colorTheme": "One Dark Pro Monokai Darker",
-        "window.titleBarStyle": "custom",
-        "explorer.confirmDragAndDrop": false,
-        "workbench.iconTheme": "material-icon-theme",
-        "terminal.integrated.fontSize": 14,
-        "python.createEnvironment.trigger": "off",
-        "window.density.editorTabHeight": "default",
-        "editor.wordWrap": "on",
+
+    // Edição de Arquivos
+    "files.autoSave": "afterDelay",
+
+    // Edição da Janela
+    "window.commandCenter": true,
+    "window.titleBarStyle": "custom",
+    "window.density.editorTabHeight": "default",
+
+    // Configuração do Terminal
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "editor.linkedEditing": true,
+    "explorer.confirmDelete": false,
+
+    // Configuração de Segurança
+    "security.workspace.trust.untrustedFiles": "open",
+
 }
