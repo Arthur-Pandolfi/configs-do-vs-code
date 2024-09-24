@@ -14,8 +14,10 @@ Auto Rename Tags
 Live Server
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Customização
-Material Icon Theme
-One Dark Pro Monkai Dark <-- Tema
+Error Lens
+Ident-Rainbow
+Material Theme Icons - Free (esquema de cores: deep florest)
+One Dark Pro (esquema de cores> Mix)
 
 Ajuda na hora de codar
-IntelliCode
+IntelliCode                                                                                                                                                                                                                         
