@@ -18,7 +18,7 @@
         {
             "scope": ["constant.numeric"],
             "settings": {
-                "foreground": "#d0ff00"
+                "foreground": "#8469b1"
                 }
             },
             {
@@ -32,12 +32,13 @@
         ]
     },
     "editor.largeFileOptimizations": false,
+    "editor.linkedEditing": true,
 
     // Edição da área de trabalho
     "workbench.colorTheme": "One Dark Pro Mix",
     "workbench.editor.labelFormat": "short",
     "workbench.editor.empty.hint": "hidden",
-
+    "workbench.iconTheme": "eq-material-theme-icons-deepforest",
 
     // Edição do Explorer
     "explorer.autoOpenDroppedFile": true,
@@ -52,6 +53,7 @@
         ".env.local": ".env*"
         
     },
+    "explorer.confirmDelete": false,
 
     // Edição de Arquivos
     "files.autoSave": "afterDelay",
@@ -62,12 +64,39 @@
     "window.density.editorTabHeight": "default",
 
     // Configuração do Terminal
-    "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.sendKeybindingsToShell": true,
-    "editor.linkedEditing": true,
-    "explorer.confirmDelete": false,
+    "terminal.integrated.fontSize": 14.8,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Bash": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "args": []
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Bash",
+
 
     // Configuração de Segurança
     "security.workspace.trust.untrustedFiles": "open",
+    
+
+    // Telemetria
+    "redhat.telemetry.enabled": false,
+    
 
 }
